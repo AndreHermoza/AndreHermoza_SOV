@@ -1,3 +1,244 @@
-footer #info-contacto{
-     size-adjust: 1px ;
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: white;
+    color: #333;
+}
+
+header {
+    background-color: white;
+    color:  black;
+    padding: 10px;
+    text-align: center;
+}
+
+
+section {
+    padding: 10px;
+    margin: 1   0px;
+    background-color: white;
+    border-radius: 8px;
+}
+
+h1, h2, h3 {
+    margin: 0 0 10px;
+}
+
+p {
+    line-height: 1.6;
+}
+
+a {
+    color: #4CAF50;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 1rem;
+}
+
+.logo img {
+    height: 50px;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 1rem;
+}
+
+.nav-links li {
+    margin: 0;
+}
+
+.nav-links a {
+    display: inline-block;
+    padding: 0.5rem 1rem;
+    background-color: #FFA500;
+    color: #000;
+    text-decoration: none;
+    border: 1px solid #000;
+    border-radius: 20px;
+    transition: background-color 0.3s ease;
+}
+
+.nav-links a:hover {
+    background-color: #ffcc00;
+}
+
+main {
+    padding: auto;
+    max-width: 1200px;
+    margin: auto;
+    
+}
+
+#bienvenida {
+    text-align: center;
+    height: 1000px;
+}
+
+#bienvenida h1 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+#bienvenida img {
+    max-width: 100%;
+    height: 100%;
+    border: #ccc;
+}
+
+/* --QUIENES SOMOS */
+
+#quienes-somos {
+    text-align: justify;
+    font-size: 1.2em;
+}
+
+#quienes-somos h2{
+    color: red;
+    text-align: left;
+}
+
+/* --DESARROLLO HISTORICO */
+
+#desarrollo-historico {
+    text-align: justify;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-bottom: 2rem;
+    font-size: 1.2em;
+}
+
+#desarrollo-historico h2 {
+    color: #0000FF;
+}
+
+.historico-content {
+    display: flex;
+    align-items: center;
+}
+
+.text-content {
+    flex: 1;
+}
+
+.image-content {
+    margin-left: 1rem;
+}
+
+.image-content img {
+    max-width: 150px;
+    height: auto;
+}
+
+.leer-mas {
+    display: inline-block;
+    margin-top: 1rem;
+    padding: 0.5rem 1rem;
+    background-color: #FFA500;
+    color: #000;
+    text-decoration: none;
+    border: 1px solid #000;
+    border-radius: 20px;
+    transition: background-color 0.3s ease;
+}
+
+.leer-mas:hover {
+    background-color: #ffcc00;
+}
+
+/* --MISION Y VISION */
+
+.mision-vision {
+    text-align: justify;
+}
+
+.mision-vision h1 {
+    color: #d32f2f;
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+.mision-vision .contenido h2 {
+    color: #8c6d1f;
+    font-size: 1.5em;
+    margin-top: 20px;
+}
+
+.mision-vision .contenido p {
+    font-size: 1.2em;
+    line-height: 1.6;
+    margin-top: 10px;
+}
+
+/* ORGANIGRAMA */
+
+.organigrama-canal {
+    text-align: center;
+    padding: 20px;
+}
+
+.organigrama-canal .link {
+    color: #1a73e8;
+    font-size: 1.5em;
+    text-decoration: none;
+    display: block;
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+.organigrama-canal h2 {
+    color: #1a73e8;
+    font-size: 1.2em;
+    margin-bottom: 20px;
+}
+
+.video-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.video-container img {
+    max-width: 100%;
+    height: 800px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* FOOTER */
+footer {
+    background-color: #004080;
+    color: white;
+    padding: 20px;
+    text-align: left;
+}
+
+footer .contact-info {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+footer .contact-info p {
+    margin: 5px 0;
+}
+
+footer .contact-info img {
+    vertical-align: middle;
+    margin-right: 10px;
+    width: 3%;
 }
